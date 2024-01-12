@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filler Word Remover</title>
+</head>
+<body>
+    <div>Filler Word Remover</div>
+    <form id="form" enctype="multipart/form-data">
+      <input type="file" name="file" required/>
+      <input type="radio" name="filler remove"/>
+      <label>with filler</label>
+      <input type="radio" name="filler remove"/>
+      <label>without filler</label>
+      <button type="submit">upload and modified</button>
+    </form>
+
+    <div id="result">
+       <h2>modified Audio:</h2>
+       <audio></audio>
+       <a id="download-button" href="#" download="modified-audio.mp3">Download</a>
+    </div>
+</body>
+</html>
